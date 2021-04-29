@@ -30,6 +30,11 @@ a {
     color: #222
 }
 
+a:hover {
+    text-shadow: 1px 1px 7px rgb(245, 201, 106);
+    font-weight: bolder;
+}
+
 a:visited {
     color: inherit;
 }

@@ -1,0 +1,90 @@
+
+/*base reset for browsers*/
+
+*
+{margin: 0;
+padding: 0;}
+
+/* background image formatting, and 
+accessibility for mobile devices*/
+
+body {
+    height: 100%;
+    background-image: url("bg2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(233, 188, 203);
+    font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 980px) {
+    body { background-image: url(bgmobile.jpg); }
+    }
+
+/*top navigation bar*/
+
+a {
+    text-decoration: none;
+    color: #222
+}
+
+a:visited {
+    color: inherit;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 25px;
+    font-size: 16px;
+    opacity: 0.75;
+}
+
+#navbar {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: powderblue;
+    padding: 10px;
+   border-bottom: rgb(238, 151, 141);
+   border-bottom-style: groove;
+}
+
+/*Main title text and description*/
+
+#title-sec {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    padding: 1.5vw;
+    font-size: 20px; 
+    font-style: italic;
+}
+
+/*footer with Github icon/link*/
+
+#gitplug {
+    bottom: 0;
+    position: absolute;
+    height: 5vw;
+    width: 100%;
+    text-align: center;
+    color: rgb(202, 201, 201)
+}
+

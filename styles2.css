@@ -20,7 +20,7 @@ body {
 }
 
 @media only screen and (max-width: 980px) {
-    body { background-image: url(bgmobile.jpg); }
+    body { background-image: url(bg2mobile.jpg); }
     }
 
 /*top navigation bar*/
@@ -68,14 +68,14 @@ li {
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: whitesmoke;
     font-weight: bold;
     font-size: 55px;
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: whitesmoke;
     padding: 1.5vw;
     font-size: 20px; 

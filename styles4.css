@@ -20,7 +20,7 @@ body {
 }
 
 @media only screen and (max-width: 980px) {
-    body { background-image: url(bgmobile.jpg); }
+    body { background-image: url(bg4mobile.jpg); }
     }
 
 /*top navigation bar*/
@@ -32,7 +32,8 @@ a {
 
 a:hover {
     text-shadow: 1px 1px 7px rgb(245, 201, 106);
-    font-weight: bolder;
+    opacity: 0.8;
+    text-decoration: underline;
 }
 
 a:visited {
@@ -52,7 +53,7 @@ li {
     right: 0;
     left: 0;
     display: flex;
-    width: 100%;
+    width: auto;
     justify-content: center;
     background-color: rgb(208, 234, 238);
     padding: 10px;
@@ -60,32 +61,27 @@ li {
    border-bottom-style: groove;
 }
 
-i {
-    vertical-align: middle;
-}
-
 /*Main title text and description*/
 
 #title-sec {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: rgb(77, 75, 75);
     font-weight: bold;
     font-size: 55px;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
+#caption {
+    font-family: 'Lato', sans-serif;
     color: rgb(77, 75, 75);
     padding: 1.5vw;
     font-size: 20px; 
     font-style: italic;
 }
-
 /*footer with Github icon/link*/
 
 #gitplug {
@@ -97,3 +93,20 @@ p {
     color: rgb(202, 201, 201)
 }
 
+
+#lakephoto {
+    display: block;
+    margin: auto;
+    height: 50%;
+    width:50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px rgb(66, 66, 60);
+}
+
+#lakephoto:hover {
+    box-shadow: 2.5px 2.5px 2.5px 2.5px#222;
+    cursor: pointer;
+    opacity: 0.9;
+}

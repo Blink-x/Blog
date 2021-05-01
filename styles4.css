@@ -110,3 +110,19 @@ h1 {
     cursor: pointer;
     opacity: 0.9;
 }
+
+h3, h4, #caption2 {
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h3, h4, #caption {
+    padding: 8px;
+}

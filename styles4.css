@@ -86,12 +86,11 @@ h1 {
 
 #gitplug {
     bottom: 0;
-    position: relative;
+    position: absolute;
     height: 5vw;
     width: 100%;
     text-align: center;
     color: rgb(202, 201, 201);
-    margin-top: 20px;
 }
 
 
@@ -127,4 +126,10 @@ h1 {
 
 h2 {
     color:rgb(99, 98, 98)
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
 }

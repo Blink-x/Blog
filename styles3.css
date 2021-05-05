@@ -30,6 +30,10 @@ a {
     color: #222
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 .navlink:hover {
     text-shadow: 1px 1px 7px rgb(245, 201, 106);
 }
@@ -91,4 +95,3 @@ p {
     text-align: center;
     color: rgb(202, 201, 201)
 }
-

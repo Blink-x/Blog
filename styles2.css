@@ -30,6 +30,9 @@ a {
     color: #222
 }
 
+a:hover {
+    cursor: pointer;
+}
 .navlink:hover {
     text-shadow: 1px 1px 7px rgb(245, 201, 106);
 }
@@ -92,3 +95,25 @@ p {
     color: rgb(202, 201, 201)
 }
 
+#photosection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.photo {
+    width: 500px;
+    height: auto;
+    padding: 12px;
+}
+
+.card {
+    background-color: whitesmoke;
+    margin: auto 10px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: rgb(109, 108, 108);
+}

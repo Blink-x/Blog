@@ -137,7 +137,7 @@ background-color: rgb(221, 248, 230);
 
 
 #hikebar {
-position: fixed;
+    position: fixed;
 float: left;
 height: 100%;
 width: fit-content;

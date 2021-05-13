@@ -101,14 +101,13 @@ p {
 
 h2 {
     text-align: center;
-    margin: 5px auto auto;
-    padding: 10px;
+    margin: auto;
+    padding: 5px;
 }
 #recentPost {
     color: rgb(253, 232, 232);
-    padding: 8px;
     border-radius: 8px;
-    background-color: darkred;
+   text-decoration: underline;
 }
 #recentPost:hover {
     color:rgb(245, 201, 106)

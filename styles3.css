@@ -77,7 +77,7 @@ h1 {
     font-size: 55px;
 }
 
-p {
+.caption {
     font-family: 'Lato', sans-serif;
     color: whitesmoke;
     padding: 1.5vw;
@@ -94,4 +94,32 @@ p {
     width: 100%;
     text-align: center;
     color: rgb(202, 201, 201)
+}
+
+
+
+.blog1 {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    height: 200px;
+    width: 700px;
+    overflow: auto;
+    color:rgb(2, 2, 2);
+    background-color: rgb(224, 186, 172);
+    border-radius: 10px;
+}
+
+h2, #recent {
+    text-align: center;
+    padding: 10px;
+    color: rgb(243, 232, 232);
+}
+#recent:hover {
+    cursor: auto;
+}
+.smallerh2 {
+    font-size: smaller;
+    color: rgb(243, 232, 232);
+
 }
